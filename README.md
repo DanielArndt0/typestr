@@ -47,7 +47,7 @@ FetchContent_MakeAvailable(typestr)
 target_link_libraries(my_target PRIVATE typestr::typestr)
 ```
 
-Replace `my_target` with your application's CMake target. The `v1.0.0` tag must exist in the repository.
+Replace `my_target` with your application's CMake target.
 
 If you already have the typestr source directory inside your CMake project, you can add it instead:
 
